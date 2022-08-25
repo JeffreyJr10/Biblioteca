@@ -14,6 +14,7 @@ namespace Biblioteca
         [STAThread]
         static void Main()
         {
+            Console.WriteLine = "HoOlaaa MundoOOO..!!";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
